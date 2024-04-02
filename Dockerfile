@@ -25,9 +25,13 @@ RUN apt-get update \
 	libhidapi-dev \
 	libmbedx509-1 \
 	libmbedtls-dev \
- 	libopenal \
+ 	libopenal1 \
+  	libopenal-data \
   	lm-sensors \
-   	libgtop2 \
+    	libglib2.0-data  \
+   	libglib2.0-0 \
+   	libgtop2-common \
+    	libgtop-2.0-11 \
     	libglib2 \
 	&& locale-gen en_US.UTF-8
 	
