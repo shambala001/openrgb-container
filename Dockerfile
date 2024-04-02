@@ -32,7 +32,6 @@ RUN apt-get update \
    	libglib2.0-0 \
    	libgtop2-common \
     	libgtop-2.0-11 \
-    	libglib2 \
 	&& locale-gen en_US.UTF-8
 	
 RUN sed -i '/messagebus/d' /var/lib/dpkg/statoverride && \
