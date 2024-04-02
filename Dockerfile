@@ -25,6 +25,10 @@ RUN apt-get update \
 	libhidapi-dev \
 	libmbedx509-1 \
 	libmbedtls-dev \
+ 	libopenal \
+  	lm-sensors \
+   	libgtop2 \
+    	libglib2 \
 	&& locale-gen en_US.UTF-8
 	
 RUN sed -i '/messagebus/d' /var/lib/dpkg/statoverride && \
